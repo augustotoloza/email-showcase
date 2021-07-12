@@ -159,7 +159,7 @@ section li h3 {
       -webkit-overflow-scrolling: touch;
   }
   .modalContent iframe{
-      width: 100%;
+      width: 100%!important;
       height: 80vh;
   }
   #mobiVer{
