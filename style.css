@@ -156,6 +156,7 @@ section li h3 {
   .modalContent{
       width: 80%;
       margin: 10% auto;
+      -webkit-overflow-scrolling: touch;
   }
   .modalContent iframe{
       width: 100%;
