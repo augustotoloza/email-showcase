@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Augusto Toloza - Email Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <nav>
+            <ul>
+                <li>
+                    Augusto Toloza
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/augustoctoloza/" target="_blank">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://github.com/augustotoloza" target="_blank">GitHub</a>
+                </li>
+                <li>
+                    <a href="CV_AUGUSTO_TOLOZA_2021.pdf" target="_blank">CV</a>
+                </li>
+            </ul>
+        </nav>
+        <img src="img/augusto-toloza.jpg" alt="Augusto Toloza" class="avatar" />
+        <h1>
+            Hey there! I'm a front-end developer specialized in email developement. +3 years of experience coding
+            awesome, modern and responsive emails for awesome brands.
+        </h1>
+        <h2>
+            Featured below are some emails I've coded.
+        </h2>
+        <section>
+            <ul>
+                <li id="em-1">
+                    <img src="img/thumb1.jpg" alt="Welcome">
+                    <h3>
+                        Welcome
+                    </h3>
+                </li>
+                <li id="em-2">
+                    <img src="img/thumb2.jpg" alt="">
+                    <h3>
+                        Refund notification (Shopify)
+                    </h3>
+                </li>
+                <li id="em-3">
+                    <img src="img/thumb3.jpg" alt="">
+                    <h3>
+                        Product Review Request
+                    </h3>
+                </li>
+                <li id="em-4">
+                    <img src="img/thumb4.jpg" alt="">
+                    <h3>
+                        Order Confirmation
+                    </h3>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <div id="registerModal" class="emModal">
+        <div class="modalContent">
+            <span id="closeBttn" class="close" onclick="closeModal()">&times;</span>
+            <div>
+                <iframe width="650" height="500" frameborder="0" id="emailFrame" src="welcome.html"></iframe>
+            </div>
+            <span id="mobiVer">
+                Mobile version
+            </span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
